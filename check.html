@@ -420,7 +420,6 @@
     </div>
 </section>
 
-<!-- Paper abstract -->
 <section class="section hero is-light">
     <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
@@ -428,27 +427,23 @@
                 <h2 class="title is-3" style="margin-top: -5px;">What is <i>RoadTones</i></h2>
                 <div class="content has-text-justified">
                     <p>
-                        <b><i>RoadTones</i></b> is a dataset-model-evaluation stack designed for tone-controllable video captioning for road event videos. 
-                        It differentiates itself from existing datasets by capturing the global complexity of road events with varied geographies, camera viewpoints (CCTV, handheld, drones) and rich social discourse. 
+                        <b><i>RoadTones</i></b> is a dataset-model-evaluation stack designed for tone-controllable text generation for road event videos. 
+                        It addresses the limitation of existing video-language models by enabling precise narrative framing tailored to diverse stakeholders such as ADAS/AV engineers, transport authorities, and the general public. 
                         RoadTones highlights:
                     </p>
                     <ul>
-                        <li><b>14M</b> frames, <b>414K</b> social comments</li>
-                        <li><b>13.2K</b> videos (<b>7.9K</b> minutes)</li>
-                        <li><b>674</b> unique video tags (total <b>100K+</b>)</li>
-                        <li><b>260K</b> high-quality socially-informed QA pairs</li>
-                        <li>Scalable QA generation pipeline using social video narratives</li>
-                        <li><b>12</b> challenging video QA tasks for generic road event understanding</li>
-                        <li>New tasks to test robustness of Video LLMs to hallucination</li>
-                        <li>Improves generic road event understanding capability of Video LLMs</li>
-                        <li>Critical insights onto zero-shot capabilities of <b>18</b> Video LLMs</li>
+                        <li><b>RoadTones-51K</b>: A dataset featuring 51k tone-aware captions along with rich tonal annotations across 215 personality traits, 16 writing styles and 8 structural controls: informativeness, target word count, viewpoint (first-person vs. external), hashtags, emojis, user mentions, location, and date/time.</li>
+                        <li><b>RoadTones-VL-CoT</b>: A specialized VideoLLM using Chain-of-Thought (CoT) reasoning to generate interpretable and stylized intermediate drafts.</li>
+                        <li><b>RoadTones-Eval</b>: A comprehensive evaluation suite with dedicated metrics for measuring factual consistency and tonal alignment.</li>
+                        <li><b>Scalable Pipeline</b>: An LLM-driven data generation pipeline that augments existing road videos with rich tonal annotations.</li>
+                        <li><b>Benchmarking</b>: Extensive evaluation against 10 state-of-the-art VideoLLMs, demonstrating superior performance in tone adherence.</li>
+                        <li><b>User Validation</b>: Framework efficacy validated through human-centric studies ensuring high-quality, stakeholder-specific communication.</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- End paper abstract -->
 
 <!-- NEW SECTION: Video Retrieval Leaderboard -->
 <section class="hero is-small" id="VideoRetrievalLeaderboard">
