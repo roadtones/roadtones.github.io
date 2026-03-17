@@ -654,8 +654,7 @@ intermediate caption drafts for partial interpretability.</li>
             <h2 class="title is-3">VideoQA Leaderboard</h2>
             <div class="leaderboard-container" style="max-width: 100%;">
                 <div class="sort-explanation">
-                    All scores are reported in percentages (%). The leaderboard evaluates models on Narrative Alignment (Personality, Writing Style) and Structural Alignment (Attributes, Informativeness, Word Count). 
-                    Abbreviations: Personality (P), Writing Style (WS), Narrative Alignment Score (NAS), Structural Attributes (A), Informativeness (I), Word Count (wc), Structural Alignment Score (SAS), Tone Alignment Score (TAS), Factual Consistency (FC).
+                    All scores are reported in percentages (%). The leaderboard evaluates models on tone alignment and factual alignment abbreviated as follows: Personality (P), Writing Style (WS), Narrative Alignment Score (NAS), Structural Attributes (A), Informativeness (I), Word Count (wc), Structural Alignment Score (SAS), Tone Alignment Score (TAS), Factual Consistency (FC) and Tone-Controlled Caption Quality (Overall).
                 </div>
 
                 <div class="table-container">
@@ -851,7 +850,7 @@ intermediate caption drafts for partial interpretability.</li>
                             </tr>                            
                             <tr>
                                 <td>11</td>
-                                <td><a href="#" style="font-weight: bold;">Qwen3-VL ft.</a></td>
+                                <td><a href="#" style="font-weight: bold;">Qwen3-VL ft. w-CoT</a></td>
                                 <td>8B</td>
                                 <td>72.7</td>
                                 <td>81.5</td>
@@ -863,6 +862,21 @@ intermediate caption drafts for partial interpretability.</li>
                                 <td>83.1</td>
                                 <td>57.7</td>
                                 <td>70.4</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td><a href="#" style="font-weight: bold;">Qwen3-VL ft. w/o CoT</a></td>
+                                <td>8B</td>
+                                <td>72.7</td>
+                                <td>81.6</td>
+                                <td>77.2</td>
+                                <td>98.1</td>
+                                <td>74.2</td>
+                                <td>94.1</td>
+                                <td>88.8</td>
+                                <td>83.0</td>
+                                <td>57.2</td>
+                                <td>70.1</td>
                             </tr>
                         </tbody>
                     </table>
