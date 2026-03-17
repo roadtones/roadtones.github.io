@@ -679,15 +679,15 @@ intermediate caption drafts for partial interpretability.</li>
                                 <th style="text-align: center;">I</th>
                                 <th style="text-align: center;">wc</th>
                                 <th style="text-align: center;">SAS</th>
-                                <th style="text-align: center;">(Tone)</th>
+                                <!-- <th style="text-align: center;">(Tone)</th>
                                 <th style="text-align: center;">(Fact)</th>
-                                <th style="text-align: center;">(Score)</th>
+                                <th style="text-align: center;">(Score)</th> -->
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td><a href="#" style="font-weight: bold;">GPT-5</a></td>
+                                <td><a href="https://openai.com/gpt-5/" style="font-weight: bold;">GPT-5</a></td>
                                 <td>-</td>
                                 <td>63.1</td>
                                 <td>65.0</td>
@@ -702,7 +702,7 @@ intermediate caption drafts for partial interpretability.</li>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td><a href="#" style="font-weight: bold;">Gemini-2.5-Pro</a></td>
+                                <td><a href="https://arxiv.org/abs/2507.06261" style="font-weight: bold;">Gemini-2.5-Pro</a></td>
                                 <td>-</td>
                                 <td>68.5</td>
                                 <td>72.5</td>
@@ -717,7 +717,43 @@ intermediate caption drafts for partial interpretability.</li>
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td><a href="#" style="font-weight: bold;">RoadSocial</a></td>
+                                <td>
+                                    <a href="https://arxiv.org/abs/2312.00438" class="model-name">Dolphins</a>
+                                    <span class="model-org">9B</span>
+                                </td>
+                                <td>9B</td>
+                                <td>19.5</td>
+                                <td>32.6</td>
+                                <td>26.1</td>
+                                <td>63.0</td>
+                                <td>56.5</td>
+                                <td>37.3</td>
+                                <td>52.3</td>
+                                <td>39.2</td>
+                                <td>40.2</td>
+                                <td>39.7</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    <a href="https://arxiv.org/abs/2412.07689" class="model-name">RoboTron-Drive</a>
+                                    <span class="model-org">8B</span>
+                                </td>
+                                <td>8B</td>
+                                <td>27.8</td>
+                                <td>32.9</td>
+                                <td>30.3</td>
+                                <td>61.1</td>
+                                <td>58.1</td>
+                                <td>32.9</td>
+                                <td>47.8</td>
+                                <td>39.1</td>
+                                <td>41.5</td>
+                                <td>40.3</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><a href="https://arxiv.org/abs/2503.21459" style="font-weight: bold;">RoadSocial</a></td>
                                 <td>7B</td>
                                 <td>40.8</td>
                                 <td>33.7</td>
@@ -731,23 +767,65 @@ intermediate caption drafts for partial interpretability.</li>
                                 <td>47.3</td>
                             </tr>
                             <tr>
-                                <td>4</td>
-                                <td><a href="#" style="font-weight: bold;">Qwen3-VL</a></td>
-                                <td>8B</td>
-                                <td>60.7</td>
-                                <td>57.9</td>
-                                <td>59.3</td>
-                                <td>82.6</td>
-                                <td>69.0</td>
-                                <td>17.5</td>
-                                <td>56.4</td>
-                                <td>57.9</td>
-                                <td>52.8</td>
-                                <td>55.4</td>
+                                <td>5</td>
+                                <td>
+                                    <a href="https://arxiv.org/abs/2501.13106" class="model-name">VideoLLaMA3</a>
+                                    <span class="model-org">7B</span>
+                                </td>
+                                <td>7B</td>
+                                <td>40.8</td>
+                                <td>43.6</td>
+                                <td>42.2</td>
+                                <td>68.9</td>
+                                <td>64.0</td>
+                                <td>12.0</td>
+                                <td>48.3</td>
+                                <td>45.3</td>
+                                <td>41.7</td>
+                                <td>43.5</td>
                             </tr>
                             <tr>
-                                <td>5</td>
-                                <td><a href="#" style="font-weight: bold;">MiniCPM-V 4.5</a></td>
+                                <td>6</td>
+                                <td>
+                                    <a href="https://arxiv.org/abs/2508.18265" class="model-name">InternVL-3.5</a>
+                                    <span class="model-org">8B</span>
+                                </td>
+                                <td>8B</td>
+                                <td>50.3</td>
+                                <td>52.4</td>
+                                <td>51.3</td>
+                                <td>77.8</td>
+                                <td>64.8</td>
+                                <td>22.9</td>
+                                <td>55.2</td>
+                                <td>53.3</td>
+                                <td>44.1</td>
+                                <td>48.7</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>
+                                    <a href="https://arxiv.org/abs/2502.13923" class="model-name">Qwen2.5-VL</a>
+                                    <span class="model-org">7B</span>
+                                </td>
+                                <td>7B</td>
+                                <td>37.5</td>
+                                <td>37.1</td>
+                                <td>37.3</td>
+                                <td>65.0</td>
+                                <td>66.0</td>
+                                <td>18.9</td>
+                                <td>50.0</td>
+                                <td>43.7</td>
+                                <td>48.3</td>
+                                <td>46.0</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>
+                                    <a href="https://arxiv.org/abs/2509.18154" class="model-name">MiniCPM-V 4.5</a>
+                                    <span class="model-org">8B</span>
+                                </td>
                                 <td>8B</td>
                                 <td>59.9</td>
                                 <td>55.0</td>
@@ -761,8 +839,26 @@ intermediate caption drafts for partial interpretability.</li>
                                 <td>52.1</td>
                             </tr>
                             <tr>
+                                <td>9</td>
+                                <td>
+                                    <a href="https://arxiv.org/abs/2511.21631" class="model-name">Qwen3-VL</a>
+                                    <span class="model-org">8B</span>
+                                </td>
+                                <td>8B</td>
+                                <td>60.7</td>
+                                <td>57.9</td>
+                                <td>59.3</td>
+                                <td>82.6</td>
+                                <td>69.0</td>
+                                <td>17.5</td>
+                                <td>56.4</td>
+                                <td>57.9</td>
+                                <td>52.8</td>
+                                <td>55.4</td>
+                            </tr>                            
+                            <tr>
                                 <td>6</td>
-                                <td><a href="#" style="font-weight: bold;">RoadTones-VL (w-CoT)</a></td>
+                                <td><a href="#" style="font-weight: bold;">RoadTones-VL (w-CoT - Ours)</a></td>
                                 <td>8B</td>
                                 <td>72.7</td>
                                 <td>81.5</td>
@@ -774,6 +870,24 @@ intermediate caption drafts for partial interpretability.</li>
                                 <td>83.1</td>
                                 <td>57.7</td>
                                 <td>70.4</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>
+                                    <a href="#" class="model-name">RoadTones-VL w/o-CoT</a>
+                                    <span class="model-org">(Qwen3-VL ft.)</span>
+                                </td>
+                                <td>8B</td>
+                                <td>72.7</td>
+                                <td>81.6</td>
+                                <td>77.2</td>
+                                <td>98.1</td>
+                                <td>74.2</td>
+                                <td>94.1</td>
+                                <td>88.8</td>
+                                <td>83.0</td>
+                                <td>57.2</td>
+                                <td>70.1</td>
                             </tr>
                         </tbody>
                     </table>
@@ -1256,25 +1370,25 @@ intermediate caption drafts for partial interpretability.</li>
 
 
 <!-- Youtube video -->
-<section class="hero is-small">
+<!-- <section class="hero is-small">
     <div class="hero-body">
-        <div class="container">
+        <div class="container"> -->
             <!-- Paper video. -->
-            <h2 class="title is-3">Video Presentation</h2>
+            <!-- <h2 class="title is-3">Video Presentation</h2>
             <div class="columns is-centered has-text-centered">
                 <div class="column is-four-fifths">
-                    <div class="publication-video">
+                    <div class="publication-video"> -->
                         <!-- Youtube embed code here -->
-                        <iframe src="https://www.youtube.com/embed/pRA0SSf6kNQ" frameborder="0"
+                        <!-- <iframe src="https://www.youtube.com/embed/pRA0SSf6kNQ" frameborder="0"
                                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- References spanning both columns -->
-            <div class="columns is-centered mt-4"> <!-- Changed to mt-2 -->
+            <!-- <div class="columns is-centered mt-4">
                 <div class="column is-full pt-0">
                     <div class="content has-text-justified">
-                        <p class="mt-0"> <!-- Added mt-0 to remove any top margin from paragraph -->
+                        <p class="mt-0">
                             <b>References</b>: InternVL2 <a href="https://arxiv.org/abs/2312.14238">[4]</a>; MM-AU <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Fang_Abductive_Ego-View_Accident_Video_Understanding_for_Safe_Driving_Perception_CVPR_2024_paper.pdf">[5]</a>; VITA <a href="https://arxiv.org/abs/2408.05211">[6]</a>; BDD-X <a href="https://arxiv.org/abs/1807.11546">[8]</a>; LLaVA-OV <a href="https://arxiv.org/abs/2408.03326">[10]</a>; ARIA <a href="https://arxiv.org/html/2410.05993v1">[11]</a>; Dolphin <a href="https://arxiv.org/abs/2312.00438">[13]</a>; DRAMA <a href="https://openaccess.thecvf.com/content/WACV2023/html/Malla_DRAMA_Joint_Risk_Localization_and_Captioning_in_Driving_WACV_2023_paper.html">[15]</a>; LingoQA <a href="https://arxiv.org/abs/2312.14115">[16]</a>; GPT-4o <a href="https://openai.com/index/hello-gpt-4o/">[18]</a>; Rank2Tell <a href="https://openaccess.thecvf.com/content/WACV2024/papers/Sachdeva_Rank2Tell_A_Multimodal_Driving_Dataset_for_Joint_Importance_Ranking_and_WACV_2024_paper.pdf">[24]</a>; LongVU <a href="https://arxiv.org/abs/2410.17434">[25]</a>; DriveLM <a href="https://arxiv.org/abs/2312.14150">[26]</a>; ROAD <a href="https://ieeexplore.ieee.org/document/9712346">[27]</a>; Gemini-1.5-Pro <a href="https://arxiv.org/abs/2312.11805">[28]</a>; Tarsier <a href="https://arxiv.org/abs/2407.00634">[30]</a>; Qwen2-VL <a href="https://arxiv.org/html/2409.12191v1">[31]</a>; SUTD-TrafficQA <a href="https://arxiv.org/abs/2103.15538">[32]</a>; BDD-OIA <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_Explainable_Object-Induced_Action_Decision_for_Autonomous_Vehicles_CVPR_2020_paper.pdf">[33]</a>; Mini-CPM-V <a href="https://arxiv.org/abs/2408.01800">[35]</a>; IXC-2.5 <a href="https://arxiv.org/html/2407.03320v1">[36]</a>; LLaVA-Video <a href="https://arxiv.org/abs/2410.02713">[37]</a>
                         </p>
                     </div>
@@ -1282,7 +1396,9 @@ intermediate caption drafts for partial interpretability.</li>
             </div>
         </div>
     </div>
-</section>
+</section> -->
+
+
 <!-- End youtube video --> 
 
 <section class="hero is-small is-light" id="reference">
